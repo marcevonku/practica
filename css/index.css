@@ -1,0 +1,28 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(../images/snowdrift-7596603_960_720.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 90px;
+	background-color: #e5e5e5;
+	padding-left: 15px;
+}
+
+header h1{
+	padding: 3px;
+	font-family: 'Oswald', sans-serif;
+}
+
+header h2{
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 5px; 
+}
