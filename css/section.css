@@ -1,0 +1,26 @@
+section {
+
+	margin: auto;
+	padding: 0px;
+	width: 74.97%;
+	height: 70%;
+	float: right;
+}
+
+section article {
+
+	margin: auto;
+	width: 60%;
+
+  	transform: translate(25%, 25%);
+}
+
+section article ul li{
+	list-style: none;
+}
+
+section article img {
+	width: 100%;
+	margin: auto;
+	display: block;
+}
