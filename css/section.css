@@ -7,20 +7,38 @@ section {
 	float: right;
 }
 
+section article h2 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+}
+
 section article {
 
-	margin: auto;
+	margin: 0px;
+	background: white;
 	width: 60%;
-
   	transform: translate(25%, 25%);
 }
 
 section article ul li{
 	list-style: none;
+	margin: 5px 15px 5px;
+}
+
+section article ul li{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
 }
 
 section article img {
 	width: 100%;
 	margin: auto;
 	display: block;
+}
+
+section div{
+	margin: 8% auto;
+	width: 60%;
+
 }

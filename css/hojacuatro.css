@@ -11,12 +11,11 @@ html{
 }
 
 body{
-	background-image: url(../images/snowdrift-7596603_960_720.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: #559e9e;
 /*	border: 2px solid red; */
 	display: grid;
 	min-height: 100vh;
 	grid-template-rows: auto 1fr auto;
 
 }
+
