@@ -1,24 +1,42 @@
 section {
-
 	margin: auto;
-	padding: 0px;
+	padding: 5em;
 	width: 74.97%;
-	height: 70%;
+	height: 100%;
 	float: right;
 }
 
-section article h2 {
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-size: 22px;
-}
+/*----posicionamiento de artículo dentro del sectión---*/
 
 section article {
+	position: relative;
+	background: white;	
+    padding-bottom: 75%;
+    height: 0;
+    overflow: auto;
+}
 
-	margin: 0px;
-	background: white;
-	width: 60%;
-  	transform: translate(25%, 25%);
+/*---------imagen de hoja index------*/
+
+section article img {
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
+/*---------articulo de hoja uno------*/
+
+section article h2 {
+	margin-top: 1em;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+}
+
+/*---------lista de hoja uno------*/
+
+section article ul{
+	margin: 0em 5em 0em;
 }
 
 section article ul li{
@@ -28,17 +46,100 @@ section article ul li{
 
 section article ul li{
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+	font-size: 1.5em;
 }
 
-section article img {
-	width: 100%;
-	margin: auto;
-	display: block;
-}
+/*---------div hoja dos video--------------*/
 
 section div{
-	margin: 8% auto;
-	width: 60%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+div iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*---------div hoja tres galería-----------*/
+
+table{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	float: left;
+}
+
+section table tbody tr td img {
+		width: 100%;
+}
+
+/*--------------------------------------*/
+/*------Responsive 420 o menor----------*/
+
+@media only screen and (max-width: 420px) {
+  /* For mobile phones: */
+section {
+
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	padding: 1em;
+	float: left;
+}
+
+/*----------------------------------*/
+/*----sentrar trabla en hoja uno-----*/
+section article h2 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+}
+
+section article {
+	width: 90%;
+	margin: 1em auto;
+	background: white;
+}
+
+section article ul li{
+	list-style: none;
+	margin: 5px 15px 5px;
+}
+
+section article ul li{
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.6em;
+}
+
+/*----------------------------------*/
+/*----sentrar imagen en el index-----*/
+section article img {
+	
+	margin: 1em auto;
+	width: 100%;
+	
+}
+
+/*----------------------------------*/
+/*----sentrar video en hoja dos-----*/
+
+section div{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+div iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 }

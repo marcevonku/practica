@@ -4,8 +4,18 @@
 	box-sizing: border-box;
 }
 
+html{
+
+/*	border: 2px solid blue;*/
+	min-height: 100vh;
+}
+
 body {
 	background-image: url(../images/flowers-5452944_960_720.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
+	
 }

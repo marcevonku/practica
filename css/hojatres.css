@@ -12,7 +12,8 @@ html{
 
 body{
 	background: #559e9e;
-/*	border: 2px solid red; */
+	background-repeat: no-repeat;
+	background-size: cover;
 	display: grid;
 	min-height: 100vh;
 	grid-template-rows: auto 1fr auto;
