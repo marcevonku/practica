@@ -40,7 +40,10 @@ aside nav ul {
 
 aside nav ul li {
      margin: 0%;
-     padding: 15px;
+     padding-top: 15px;
+     padding-right: 15px;
+     padding-bottom: 15px;
+     padding-left: 5px;
 }
 
 aside nav ul>li:hover{
@@ -53,6 +56,10 @@ aside nav ul li a{
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 16px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 60%;
 }
 
 /*------------------------------------------*/
