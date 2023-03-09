@@ -10,7 +10,7 @@ section {
 
 section article {
 	position: relative;
-	background: white;	
+	/*background: white;*/	
     padding-bottom: 75%;
     height: 0;
     overflow: auto;
@@ -24,6 +24,13 @@ section article img {
 }
 
 /*---------articulo de hoja uno------*/
+
+section article h2 {
+	margin-top: 1em;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+}
 
 section article h2 {
 	margin-top: 1em;
